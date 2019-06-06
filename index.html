@@ -1,0 +1,859 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <title>HiddenObject</title>
+  </head>
+
+  <body style="background-color: #efbd5b">
+    <div style="margin-left: 650px; margin-top: 30px" class="namw">
+      <h1>Hidden Object</h1>
+    </div>
+    <div class="col-5 container menu" style="margin-top: 30px;">
+        <img src="ydoor.png" class="doors" style="height: 400px; position: absolute;">
+        <img src="door2.png" class="doors" style="height: 400px; position: absolute; margin-left: 200px;  display: block">
+        <img src="gdoor.png" class="doort" style="height: 400px; position: absolute; margin-left: 200px; display: none">
+        <img src="door2.png" class="doors" style="height: 400px; position: absolute; margin-left: 400px; display: block">
+        <img src="odoor.png" class="doort" style="height: 400px; position: absolute; margin-left: 400px; display: none">
+    </div>
+
+    <div class="col-3 container second" style="margin-top: 430px;">
+      <img src="door2.png" class="doors" style="height: 400px; position: absolute; display: block">
+        <img src="bdoor.jpeg" class="doort" style="height: 400px; position: absolute; display: none">
+        <img src="door2.png" class="doors" style="height: 400px; position: absolute; margin-left: 200px;  display: block">
+        <img src="pdoor.jpg" class="doort" style="height: 400px; position: absolute; margin-left: 200px; display: none">
+    </div>
+
+    <div style="background-image: url('location0.jpg'); display: none; height: 750px; background-size: 100% 100%" class="hogwarts">
+      <button class="button btn btn-info border">Выйти из игры</button>
+      <h2 class="text-white score">0</h2>
+      <img src="gun.png" class="gun" style="width: 60px; margin-left: 350px; margin-top: 100px; position: absolute;">
+      <img src="umbrella.png" class="mantiya" style="width: 70px; margin-left: 600px; margin-top: 460px; position: absolute;">
+      <img src="otvertka.png" class="metla" style="width: 70px; margin-left: 1235px; position: absolute;">
+      <img src="watermelon.png" class="palochka" style="width: 50px; margin-left: 185px; margin-top: 320px; position: absolute;">
+      <img src="ring.png" class="ring" style="width: 15px; margin-left: 435px; margin-top: 250px; position: absolute;">
+      <div class="col-5">
+        <div style="position: absolute; margin-top: 560px; height: 80px; width: 80px; margin-left: 750px; background-color: #efbd5b" class="rounded border otvertk">
+          <img src="otvertka.png" class="w-100">
+        </div>
+        <div style="position: absolute; margin-top: 560px; height: 80px; width: 80px; margin-left: 650px; background-color: #efbd5b" class="rounded border watermelo">
+          <img src="watermelon.png" class="w-75" >
+        </div>
+        <div style="position: absolute; margin-top: 560px; height: 80px; width: 80px; margin-left: 550px; background-color: #efbd5b" class="rounded border umbrell">
+          <img src="umbrella.png" class="w-100">
+        </div>
+      </div>
+    </div>
+
+    <div style="background-image: url('location.jpg'); display: none; height: 750px; background-size: 100% 100%" class="dasha">
+        <button class="buttona btn btn-info border">Выйти из игры</button>
+        <h2 class="text-white pointa">0</h2>
+        <img src="cactus.png" class="map" style="width: 60px; margin-top: 340px; margin-left: 1300px; position: absolute;">
+        <img src="cat.png" class="bag" style="width: 40px; margin-top: 420px; margin-left: 1000px; position: absolute;">
+        <img src="bible.png" class="isa" style="width: 60px; margin-top: 390px; margin-left: 140px; position: absolute;">
+        <img src="bart.png" class="bart" style="width: 40px; margin-top: 140px; margin-left: 1260px; position: absolute;">
+        <img src="watch.png" class="ussr" style="width: 35px; margin-top: 320px; margin-left: 998px; position: absolute;">
+        <img src="pigeon.png" class="pigeon" style="width: 60px;margin-left: 580px; position: absolute; margin-top: 60px">
+        <img src="apple.png" class="apple" style="width: 35px; margin-top:110px; margin-left: 160px; position: absolute;">
+        <div class="col-5">
+          <div style="position: absolute; margin-top: 560px; height: 80px; width: 80px; margin-left: 850px; background-color: #efbd5b" class="rounded border appl">
+              <img src="apple.png" class="w-100">
+           </div>
+           <div style="position: absolute; margin-top: 560px; height: 80px; width: 80px; margin-left: 450px; background-color: #efbd5b" class="rounded border pigeo">
+              <img src="pigeon.png" class="w-100" >
+           </div>
+            <div style="position: absolute; margin-top: 560px; height: 80px; width: 80px; margin-left: 650px; background-color: #efbd5b" class="rounded border bibl">
+              <img src="bible.png" class="w-100">
+            </div>
+            <div style="position: absolute; margin-top: 560px; height: 80px; width: 80px; margin-left: 550px; background-color: #efbd5b" class="rounded border cactu">
+              <img src="cactus.png" class="w-75" >
+           </div>
+            <div style="position: absolute; margin-top: 560px; height: 80px; width: 80px; margin-left: 750px; background-color: #efbd5b" class="rounded border ca">
+              <img src="cat.png" class="w-75">
+            </div>
+        </div>
+    </div>
+
+    <div style="background-image: url('location2.jpg'); display: none; height: 750px; background-size: 100% 100%" class="location">
+        <button class="buttonq btn btn-info border">Выйти из игры</button>
+        <h2 class="text-white pointq">0</h2>
+        <img src="rocks.png" class="rocks" style="width: 60px; margin-top: 260px; margin-left: 300px; position: absolute;">
+        <img src="rascheska.png" class="rascheska" style="width: 100px; margin-top: 510px; margin-left: 1200px; position: absolute;">
+        <img src="orange.png" class="orange" style="width: 80px; margin-top: 530px; margin-left: 770px; position: absolute;">
+        <img src="ball.png" class="ball" style="width: 40px; margin-top: 530px; margin-left: 380px; position: absolute;">
+        <img src="ussr.png" class="ussr" style="width: 40px; margin-top: 90px; margin-left: 1015px; position: absolute;">
+        <img src="butterfly.png" class="butterfly" style="width: 35px; margin-left: 330px; position: absolute; margin-top: 60px">
+        <img src="glasess.png" class="glasess" style="width: 100px; margin-left: 450px; position: absolute; margin-top: 260px">
+        <img src="hat.png" class="hat" style="width: 100px; margin-left: 600px; position: absolute; margin-top: 160px">
+        <img src="pen.png" class="pen" style="width: 100px; margin-left: 850px; position: absolute; margin-top: 450px">
+        <div class="col-5">
+          <div style="position: absolute; margin-top: 560px; height: 80px; width: 80px; margin-left: 550px; background-color: #efbd5b" class="rounded border glases">
+              <img src="glasess.png" class="w-100">
+           </div>
+           <div style="position: absolute; margin-top: 560px; height: 80px; width: 80px; margin-left: 450px; background-color: #efbd5b" class="rounded border orang">
+              <img src="orange.png" class="w-100" >
+           </div>
+            <div style="position: absolute; margin-top: 560px; height: 80px; width: 80px; margin-left: 650px; background-color: #efbd5b" class="rounded border butterfl">
+              <img src="butterfly.png" class="w-100">
+            </div>
+            <div style="position: absolute; margin-top: 560px; height: 80px; width: 80px; margin-left: 350px; background-color: #efbd5b" class="rounded border bal">
+              <img src="ball.png" class="w-75" >
+           </div>
+            <div style="position: absolute; margin-top: 560px; height: 80px; width: 80px; margin-left: 750px; background-color: #efbd5b" class="rounded border raschesk">
+              <img src="rascheska.png" class="w-75">
+            </div>
+            <div style="position: absolute; margin-top: 560px; height: 80px; width: 80px; margin-left: 850px; background-color: #efbd5b" class="rounded border ha">
+              <img src="hat.png" class="w-75">
+            </div>
+            <div style="position: absolute; margin-top: 560px; height: 80px; width: 80px; margin-left: 950px; background-color: #efbd5b" class="rounded border pe">
+              <img src="pen.png" class="w-75">
+            </div>
+        </div>
+    </div>
+
+    <div style="background-image: url('location3.png'); display: none; height: 750px; background-size: 100% 100%" class="forth">
+      <button class="buttonr btn btn-info border">Выйти из игры</button>
+        <h2 class="text-white pointr">0</h2>
+        <img src="box.png" class="box" style="width: 60px; margin-top: 200px; margin-left: 300px; position: absolute;">
+        <img src="lamp.png" class="lamp" style="width: 100px; margin-top: 450px; margin-left: 1200px; position: absolute;">
+        <img src="pillow.png" class="pillow" style="width: 80px; margin-top: 410px; margin-left: 30px; position: absolute;">
+        <img src="crystall.png" class="crystall" style="width: 40px; margin-top: 320px; margin-left: 430px; position: absolute;">
+        <img src="pumpkin.png" class="pumpkin" style="width: 40px; margin-top: 30px; margin-left: 900px; position: absolute; margin-top: 410px">
+        <img src="candle.png" class="candle" style="width: 60px; margin-left: 300px; position: absolute; margin-top: 85px">
+        <img src="flower.png" class="flower" style="width: 60px; margin-left: 900px; position: absolute;">
+        <img src="photo.png" class="photo" style="width: 100px; margin-left: 1000px; position: absolute; margin-top: 10px">
+        <img src="clock.png" class="clock" style="width: 30px; margin-left: 580px; position: absolute; margin-top: 45px">
+        <img src="chemstry.png" class="chemstry" style="width: 40px; margin-left: 950px; position: absolute; margin-top: 200px">
+        <div class="col-5">
+        	<div style="position: absolute; margin-top: 475px; height: 80px; width: 80px; margin-left: 500px; background-color: #efbd5b" class="rounded border pillo">
+              <img src="pillow.png" class="w-100">
+           </div>
+           <div style="position: absolute; margin-top: 475px; height: 80px; width: 80px; margin-left: 600px; background-color: #efbd5b" class="rounded border lam">
+              <img src=" lamp.png" class="w-100" >
+           </div>
+            <div style="position: absolute; margin-top: 475px; height: 80px; width: 80px; margin-left: 400px; background-color: #efbd5b" class="rounded border candl">
+              <img src=" candle.png" class="w-100">
+            </div>
+            <div style="position: absolute; margin-top: 475px; height: 80px; width: 80px; margin-left: 300px; background-color: #efbd5b" class="rounded border chemstr">
+              <img src=" chemstry.png" class="w-50" >
+           </div>
+            <div style="position: absolute; margin-top: 475px; height: 80px; width: 80px; margin-left: 700px; background-color: #efbd5b" class="rounded border crystal">
+              <img src=" crystall.png" class="w-100">
+            </div>
+            <div style="position: absolute; margin-top: 475px; height: 80px; width: 80px; margin-left: 800px; background-color: #efbd5b" class="rounded border bo">
+              <img src=" box.png" class="w-100">
+            </div>
+            <div style="position: absolute; margin-top: 475px; height: 80px; width: 80px; margin-left: 900px; background-color: #efbd5b" class="rounded border cloc">
+              <img src=" clock.png" class="w-75">
+            </div>
+            <div style="position: absolute; margin-top: 475px; height: 80px; width: 80px; margin-left: 1000px; background-color: #efbd5b" class="rounded border flowe">
+              <img src=" flower.png" class="w-75">
+            </div>
+            <div style="position: absolute; margin-top: 560px; height: 80px; width: 80px; margin-left: 600px; background-color: #efbd5b" class="rounded border phot">
+              <img src=" photo.png" class="w-75">
+            </div>
+            <div style="position: absolute; margin-top: 560px; height: 80px; width: 80px; margin-left: 700px; background-color: #efbd5b" class="rounded border pumpki">
+              <img src=" pumpkin.png" class="w-75">
+            </div>
+        </div>
+    </div>
+
+    <div style="background-image: url('location4.png'); display: none; height: 750px; background-size: 100% 100%" class="fifth">
+      <button class="buttonh btn btn-info border">Выйти из игры</button>
+        <h2 class="text-white pointh">0</h2>
+        <img src="vinyl.png" class="vinyl" style="width: 60px; margin-top: 450px; margin-left: 1150px; position: absolute;">
+        <img src="flashlight.png" class="flashlight" style="width: 60px; margin-top: 300px; margin-left: 900px; position: absolute;">
+        <img src="lisa.png" class="lisa" style="width: 60px; margin-top: 300px; margin-left: 1000px; position: absolute;">
+        <img src="cake.png" class="cake" style="width: 40px; margin-top: 470px; margin-left: 380px; position: absolute;">
+        <img src="cards.png" class="cards" style="width: 20px; margin-top: 200px; margin-left: 300px; position: absolute;">
+        <img src="bones.png" class="bones" style="width: 35px; margin-left: 500px; position: absolute; margin-top: 110px">
+        <img src="jam.png" class="jam" style="width: 50px; margin-left: 450px; position: absolute; margin-top: 30px">
+        <img src="cherep.png" class="cherep" style="width: 40px; margin-left: 580px; position: absolute; margin-top: 130px">
+        <img src="tooth.png" class="tooth" style="width: 20px; margin-left: 1000px; position: absolute; margin-top: 200px">
+        <img src="lava.png" class="lava" style="width: 100px; margin-left: 1060px; position: absolute; margin-top: 200px">
+        <img src="earth.png" class="earth" style="width: 60px; margin-left: 200px; position: absolute; margin-top: 270px">
+        <img src="veer.png" class="veer" style="width: 60px; margin-left: 300px; position: absolute; margin-top: 10px">
+        <div class="col-5">
+        	<div style="position: absolute; margin-top: 475px; height: 80px; width: 80px; margin-left: 550px; background-color: #efbd5b" class="rounded border viny">
+              <img src="vinyl.png" class="w-100">
+           </div>
+           <div style="position: absolute; margin-top: 475px; height: 80px; width: 80px; margin-left: 450px; background-color: #efbd5b" class="rounded border flashligh">
+              <img src=" flashlight.png" class="w-100" >
+           </div>
+            <div style="position: absolute; margin-top: 475px; height: 80px; width: 80px; margin-left: 350px; background-color: #efbd5b" class="rounded border lis">
+              <img src=" lisa.png" class="w-75">
+            </div>
+            <div style="position: absolute; margin-top: 475px; height: 80px; width: 80px; margin-left: 650px; background-color: #efbd5b" class="rounded border cak">
+              <img src=" cake.png" class="w-75" >
+           </div>
+            <div style="position: absolute; margin-top: 475px; height: 80px; width: 80px; margin-left: 750px; background-color: #efbd5b" class="rounded border card">
+              <img src=" cards.png" class="w-75">
+            </div>
+            <div style="position: absolute; margin-top:475px; height: 80px; width: 80px; margin-left: 250px; background-color: #efbd5b" class="rounded border bone">
+              <img src=" bones.png" class="w-75">
+            </div>
+            <div style="position: absolute; margin-top: 475px; height: 80px; width: 80px; margin-left: 850px; background-color: #efbd5b" class="rounded border ja">
+              <img src=" jam.png" class="w-75">
+            </div>
+            <div style="position: absolute; margin-top: 475px; height: 80px; width: 80px; margin-left: 950px; background-color: #efbd5b" class="rounded border chere">
+              <img src=" cherep.png" class="w-75">
+            </div>
+            <div style="position: absolute; margin-top: 560px; height: 80px; width: 80px; margin-left: 700px; background-color: #efbd5b" class="rounded border toot">
+              <img src=" tooth.png" class="w-75">
+            </div>
+            <div style="position: absolute; margin-top: 560px; height: 80px; width: 80px; margin-left: 600px; background-color: #efbd5b" class="rounded border lav">
+              <img src=" lava.png" class="w-75">
+            </div>
+            <div style="position: absolute; margin-top: 560px; height: 80px; width: 80px; margin-left: 500px; background-color: #efbd5b" class="rounded border eart">
+              <img src=" earth.png" class="w-75">
+            </div>
+            <div style="position: absolute; margin-top: 560px; height: 80px; width: 80px; margin-left: 800px; background-color: #efbd5b" class="rounded border vee">
+              <img src=" veer.png" class="w-75">
+            </div>
+        </div>
+    </div>
+
+
+
+    <script type="text/javascript">
+      let point = 0
+      let doors = document.querySelectorAll(".doors")
+      let menu = document.querySelector(".menu")
+      let namw = document.querySelector(".namw")
+      let dasha =  document.querySelector(".dasha")
+      let doort = document.querySelectorAll(".doort")
+      let second = document.querySelector(".second")
+
+
+      doors[0].onclick = function(){
+        menu.style.display = "none";
+        second.style.display = "none";
+        namw.style.display = "none";
+        document.querySelector(".hogwarts").style.display = "block";
+      }
+      document.querySelector(".button").onclick = function(){
+        document.querySelector(".hogwarts").style.display = "none";
+        menu.style.display = "block";
+        second.style.display = "block";
+        namw.style.display = "block";
+      }
+      document.querySelector(".mantiya").onclick = function(){
+      	point= point+1
+      	 document.querySelector(".score").innerHTML = point;
+        document.querySelector(".mantiya").style.display = "none";
+        document.querySelector(".umbrell").style.display = "none";
+        if (   point==3   ) {
+          alert("Молодец! Следующий уровень открыт.")
+          doort[0].style.display = "block"
+          doors[1].style.display = "none"
+          	document.querySelector(".hogwarts").style.display = "none";
+            menu.style.display = "block";
+            second.style.display = "block";
+        	namw.style.display = "block";
+        } 
+      }
+      document.querySelector(".metla").onclick = function(){
+      	 point= point+1
+      	 document.querySelector(".score").innerHTML = point;
+        document.querySelector(".metla").style.display = "none";
+        document.querySelector(".otvertk").style.display = "none";
+        if (   point==3   ) {
+          alert("Молодец! Следующий уровень открыт.")
+          doort[0].style.display = "block"
+          doors[1].style.display = "none"
+          	document.querySelector(".hogwarts").style.display = "none";
+        	menu.style.display = "block";
+        	namw.style.display = "block";
+          second.style.display = "block";
+        } 
+      }
+      document.querySelector(".palochka").onclick = function(){
+      	point= point+1
+      	document.querySelector(".score").innerHTML = point;
+        document.querySelector(".palochka").style.display = "none";
+        document.querySelector(".watermelo").style.display = "none";
+        if (   point==3   ) {
+          alert("Молодец! Следующий уровень открыт.")
+          doort[0].style.display = "block"
+          doors[1].style.display = "none"
+          	document.querySelector(".hogwarts").style.display = "none";
+        	menu.style.display = "block";
+       	 	namw.style.display = "block";
+          second.style.display = "block";
+        } 
+      }
+
+      
+      
+      
+      
+      let pointa = 0
+
+      doort[0].onclick = function(){
+        menu.style.display = "none";
+        second.style.display = "none";
+        namw.style.display = "none";
+        dasha.style.display = "block";
+      }
+      document.querySelector(".buttona").onclick = function(){
+        dasha.style.display = "none";
+        second.style.display = "block";
+        menu.style.display = "block";
+        namw.style.display = "block";
+      }
+
+
+      document.querySelector(".bag").onclick = function(){
+      	 pointa = pointa + 1
+      	 document.querySelector(".pointa").innerHTML = pointa;
+        document.querySelector(".bag").style.display = "none";
+        document.querySelector(".ca").style.display = "none";
+        if (   pointa==5   ) {
+          alert("Молодец! Следующий уровень открыт.")
+          doort[1].style.display = "block"
+          doors[2].style.display = "none"
+          dasha.style.display = "none";
+          second.style.display = "block";
+        menu.style.display = "block";
+        namw.style.display = "block";
+        } 
+      }
+      document.querySelector(".isa").onclick = function(){
+      	 pointa = pointa + 1
+      	 document.querySelector(".pointa").innerHTML = pointa;
+        document.querySelector(".isa").style.display = "none";
+        document.querySelector(".bibl").style.display = "none";
+        if (   pointa==5   ) {
+          alert("Молодец! Следующий уровень открыт.")
+          doort[1].style.display = "block"
+          doors[2].style.display = "none"
+          dasha.style.display = "none";
+        menu.style.display = "block";
+        namw.style.display = "block";
+        second.style.display = "block";
+        } 
+      }
+      document.querySelector(".map").onclick = function(){
+      	pointa = pointa + 1
+      	document.querySelector(".pointa").innerHTML = pointa;
+        document.querySelector(".map").style.display = "none";
+        document.querySelector(".cactu").style.display = "none";
+        if (   pointa==5   ) {
+          alert("Молодец! Следующий уровень открыт.")
+          doort[1].style.display = "block"
+          doors[2].style.display = "none"
+          dasha.style.display = "none";
+        menu.style.display = "block";
+        namw.style.display = "block";
+        second.style.display = "block";
+        } 
+      }
+
+      document.querySelector(".pigeon").onclick = function(){
+      	pointa = pointa + 1
+      	document.querySelector(".pointa").innerHTML = pointa;
+        document.querySelector(".pigeon").style.display = "none";
+        document.querySelector(".pigeo").style.display = "none";
+        if (   pointa==5   ) {
+          alert("Молодец! Следующий уровень открыт.")
+          doort[1].style.display = "block"
+          doors[2].style.display = "none"
+          dasha.style.display = "none";
+        menu.style.display = "block";
+        second.style.display = "block";
+        namw.style.display = "block";
+        } 
+      }
+
+      document.querySelector(".apple").onclick = function(){
+      	pointa = pointa + 1
+      	document.querySelector(".pointa").innerHTML = pointa;
+        document.querySelector(".apple").style.display = "none";
+        document.querySelector(".appl").style.display = "none";
+        if (   pointa==5   ) {
+          alert("Молодец! Следующий уровень открыт.")
+          doort[1].style.display = "block"
+          doors[2].style.display = "none"
+          dasha.style.display = "none";
+        menu.style.display = "block";
+        second.style.display = "block";
+        namw.style.display = "block";
+        } 
+      }
+
+      let pointq = 0
+
+      doort[1].onclick = function(){
+        menu.style.display = "none";
+        namw.style.display = "none";
+        second.style.display = "none";
+        document.querySelector(".location").style.display = "block";
+      }
+      document.querySelector(".buttonq").onclick = function(){
+        document.querySelector(".location").style.display = "none";
+        menu.style.display = "block";
+        namw.style.display = "block";
+        second.style.display = "block";
+      }
+
+
+      document.querySelector(".rascheska").onclick = function(){
+      	 pointq = pointq + 1
+      	 document.querySelector(".pointq").innerHTML = pointq;
+        document.querySelector(".rascheska").style.display = "none";
+        document.querySelector(".raschesk").style.display = "none";
+        if (   pointq==7   ) {
+          alert("Молодец! Следующий уровень открыт.")
+          doort[2].style.display = "block"
+          doors[3].style.display = "none"
+          document.querySelector(".location").style.display = "none";
+        menu.style.display = "block";
+        namw.style.display = "block";
+        second.style.display = "block";
+        } 
+      }
+      document.querySelector(".ball").onclick = function(){
+      	 pointq = pointq + 1
+      	 document.querySelector(".pointq").innerHTML = pointq;
+        document.querySelector(".ball").style.display = "none";
+        document.querySelector(".bal").style.display = "none";
+        if (   pointq==7   ) {
+          alert("Молодец! Следующий уровень открыт.")
+          doort[2].style.display = "block"
+          doors[3].style.display = "none"
+          document.querySelector(".location").style.display = "none";
+        menu.style.display = "block";
+        second.style.display = "block";
+        namw.style.display = "block";
+        } 
+      }
+      document.querySelector(".orange").onclick = function(){
+      	pointq = pointq + 1
+      	document.querySelector(".pointq").innerHTML = pointq;
+        document.querySelector(".orange").style.display = "none";
+        document.querySelector(".orang").style.display = "none";
+        if (   pointq==7   ) {
+          alert("Молодец! Следующий уровень открыт.")
+          doort[2].style.display = "block"
+          doors[3].style.display = "none"
+          document.querySelector(".location").style.display = "none";
+        menu.style.display = "block";
+        namw.style.display = "block";
+        second.style.display = "block";
+        } 
+      }
+      document.querySelector(".butterfly").onclick = function(){
+      	pointq = pointq + 1
+      	document.querySelector(".pointq").innerHTML = pointq;
+        document.querySelector(".butterfly").style.display = "none";
+        document.querySelector(".butterfl").style.display = "none";
+        if (   pointq==7   ) {
+          alert("Молодец! Следующий уровень открыт.")
+          doort[2].style.display = "block"
+          doors[3].style.display = "none"
+          document.querySelector(".location").style.display = "none";
+        menu.style.display = "block";
+        second.style.display = "block";
+        namw.style.display = "block";
+        } 
+      }
+      document.querySelector(".glasess").onclick = function(){
+      	pointq = pointq + 1
+      	document.querySelector(".pointq").innerHTML = pointq;
+        document.querySelector(".glasess").style.display = "none";
+        document.querySelector(".glases").style.display = "none";
+        if (   pointq==7   ) {
+          alert("Молодец! Следующий уровень открыт.")
+          doort[2].style.display = "block"
+          doors[3].style.display = "none"
+          document.querySelector(".location").style.display = "none";
+        menu.style.display = "block";
+        namw.style.display = "block";
+        second.style.display = "block";
+        } 
+      }
+      document.querySelector(".hat").onclick = function(){
+      	pointq = pointq + 1
+      	document.querySelector(".pointq").innerHTML = pointq;
+        document.querySelector(".hat").style.display = "none";
+        document.querySelector(".ha").style.display = "none";
+        if (   pointq==7   ) {
+          alert("Молодец! Следующий уровень открыт.")
+          doort[2].style.display = "block"
+          doors[3].style.display = "none"
+          document.querySelector(".location").style.display = "none";
+        menu.style.display = "block";
+        namw.style.display = "block";
+        second.style.display = "block";
+        } 
+      }
+      document.querySelector(".pen").onclick = function(){
+      	pointq = pointq + 1
+      	document.querySelector(".pointq").innerHTML = pointq;
+        document.querySelector(".pen").style.display = "none";
+        document.querySelector(".pe").style.display = "none";
+        if (   pointq==7   ) {
+          alert("Молодец! Следующий уровень открыт.")
+          doort[2].style.display = "block"
+          doors[3].style.display = "none"
+          document.querySelector(".location").style.display = "none";
+        menu.style.display = "block";
+        namw.style.display = "block";
+        second.style.display = "block";
+        } 
+      }
+
+      let pointr = 0
+
+      doort[2].onclick = function(){
+        menu.style.display = "none";
+        namw.style.display = "none";
+        second.style.display = "none";
+        document.querySelector(".forth").style.display = "block";
+      }
+      document.querySelector(".buttonr").onclick = function(){
+        document.querySelector(".forth").style.display = "none";
+        menu.style.display = "block";
+        namw.style.display = "block";
+        second.style.display = "block";
+      }
+
+
+      document.querySelector(".lamp").onclick = function(){
+      	 pointr = pointr + 1
+      	 document.querySelector(".pointr").innerHTML = pointr;
+        document.querySelector(".lamp").style.display = "none";
+        document.querySelector(".lam").style.display = "none";
+        if (   pointr==10   ) {
+          alert("Молодец! Следующий уровень открыт.")
+          doort[3].style.display = "block"
+          doors[4].style.display = "none"
+          document.querySelector(".forth").style.display = "none";
+        menu.style.display = "block";
+        namw.style.display = "block";
+        second.style.display = "block";
+        } 
+      }
+      document.querySelector(".candle").onclick = function(){
+      	 pointr = pointr + 1
+      	 document.querySelector(".pointr").innerHTML = pointr;
+        document.querySelector(".candle").style.display = "none";
+        document.querySelector(".candl").style.display = "none";
+        if (   pointr==10   ) {
+          alert("Молодец! Следующий уровень открыт.")
+          doort[3].style.display = "block"
+          doors[4].style.display = "none"
+          document.querySelector(".forth").style.display = "none";
+        menu.style.display = "block";
+        second.style.display = "block";
+        namw.style.display = "block";
+        } 
+      }
+      document.querySelector(".pillow").onclick = function(){
+      	pointr = pointr + 1
+      	document.querySelector(".pointr").innerHTML = pointr;
+        document.querySelector(".pillow").style.display = "none";
+        document.querySelector(".pillo").style.display = "none";
+        if (   pointr==10   ) {
+          alert("Молодец! Следующий уровень открыт.")
+          doort[3].style.display = "block"
+          doors[4].style.display = "none"
+          document.querySelector(".forth").style.display = "none";
+        menu.style.display = "block";
+        namw.style.display = "block";
+        second.style.display = "block";
+        } 
+      }
+      document.querySelector(".photo").onclick = function(){
+      	pointr = pointr + 1
+      	document.querySelector(".pointr").innerHTML = pointr;
+        document.querySelector(".photo").style.display = "none";
+        document.querySelector(".phot").style.display = "none";
+        if (   pointr==10   ) {
+          alert("Молодец! Следующий уровень открыт.")
+          doort[3].style.display = "block"
+          doors[4].style.display = "none"
+          document.querySelector(".forth").style.display = "none";
+        menu.style.display = "block";
+        second.style.display = "block";
+        namw.style.display = "block";
+        } 
+      }
+      document.querySelector(".crystall").onclick = function(){
+      	pointr = pointr + 1
+      	document.querySelector(".pointr").innerHTML = pointr;
+        document.querySelector(".crystall").style.display = "none";
+        document.querySelector(".crystal").style.display = "none";
+        if (   pointr==10   ) {
+          alert("Молодец! Следующий уровень открыт.")
+          doort[3].style.display = "block"
+          doors[4].style.display = "none"
+          document.querySelector(".forth").style.display = "none";
+        menu.style.display = "block";
+        namw.style.display = "block";
+        second.style.display = "block";
+        } 
+      }
+      document.querySelector(".chemstry").onclick = function(){
+      	pointr = pointr + 1
+      	document.querySelector(".pointr").innerHTML = pointr;
+        document.querySelector(".chemstry").style.display = "none";
+        document.querySelector(".chemstr").style.display = "none";
+        if (   pointr==10   ) {
+          alert("Молодец! Следующий уровень открыт.")
+          doort[3].style.display = "block"
+          doors[4].style.display = "none"
+          document.querySelector(".forth").style.display = "none";
+        menu.style.display = "block";
+        namw.style.display = "block";
+        second.style.display = "block";
+        } 
+      }
+      document.querySelector(".box").onclick = function(){
+      	pointr = pointr + 1
+      	document.querySelector(".pointr").innerHTML = pointr;
+        document.querySelector(".box").style.display = "none";
+        document.querySelector(".bo").style.display = "none";
+        if (   pointr==10   ) {
+          alert("Молодец! Следующий уровень открыт.")
+          doort[3].style.display = "block"
+          doors[4].style.display = "none"
+          document.querySelector(".forth").style.display = "none";
+        menu.style.display = "block";
+        namw.style.display = "block";
+        second.style.display = "block";
+        } 
+      }
+      document.querySelector(".pumpkin").onclick = function(){
+      	pointr = pointr + 1
+      	document.querySelector(".pointr").innerHTML = pointr;
+        document.querySelector(".pumpkin").style.display = "none";
+        document.querySelector(".pumpki").style.display = "none";
+        if (   pointr==10   ) {
+          alert("Молодец! Следующий уровень открыт.")
+          doort[3].style.display = "block"
+          doors[4].style.display = "none"
+          document.querySelector(".forth").style.display = "none";
+        menu.style.display = "block";
+        namw.style.display = "block";
+        second.style.display = "block";
+        } 
+      }
+      document.querySelector(".flower").onclick = function(){
+      	pointr = pointr + 1
+      	document.querySelector(".pointr").innerHTML = pointr;
+        document.querySelector(".flower").style.display = "none";
+        document.querySelector(".flowe").style.display = "none";
+        if (   pointr==10   ) {
+          alert("Молодец! Следующий уровень открыт.")
+          doort[3].style.display = "block"
+          doors[4].style.display = "none"
+          document.querySelector(".forth").style.display = "none";
+        menu.style.display = "block";
+        namw.style.display = "block";
+        second.style.display = "block";
+        } 
+      }
+      document.querySelector(".clock").onclick = function(){
+      	pointr = pointr + 1
+      	document.querySelector(".pointr").innerHTML = pointr;
+        document.querySelector(".clock").style.display = "none";
+        document.querySelector(".cloc").style.display = "none";
+        if (   pointr==10   ) {
+          alert("Молодец! Следующий уровень открыт.")
+          doort[3].style.display = "block"
+          doors[4].style.display = "none"
+          document.querySelector(".forth").style.display = "none";
+        menu.style.display = "block";
+        namw.style.display = "block";
+        second.style.display = "block";
+        } 
+      }
+
+      let pointh = 0
+
+      doort[3].onclick = function(){
+        menu.style.display = "none";
+        namw.style.display = "none";
+        second.style.display = "none";
+        document.querySelector(".fifth").style.display = "block";
+      }
+      document.querySelector(".buttonh").onclick = function(){
+        document.querySelector(".fifth").style.display = "none";
+        menu.style.display = "block";
+        namw.style.display = "block";
+        second.style.display = "block";
+      }
+
+
+      document.querySelector(".flashlight").onclick = function(){
+      	 pointh = pointh + 1
+      	 document.querySelector(".pointh").innerHTML = pointh;
+        document.querySelector(".flashlight").style.display = "none";
+        document.querySelector(".flashligh").style.display = "none";
+        if (   pointh==12   ) {
+          alert("Молодец! Следующий уровень открыт.")
+          document.querySelector(".fifth").style.display = "none";
+        menu.style.display = "block";
+        namw.style.display = "block";
+        second.style.display = "block";
+        } 
+      }
+      document.querySelector(".bones").onclick = function(){
+      	 pointh = pointh + 1
+      	 document.querySelector(".pointh").innerHTML = pointh;
+        document.querySelector(".bones").style.display = "none";
+        document.querySelector(".bone").style.display = "none";
+        if (   pointh==12   ) {
+          alert("Молодец! Следующий уровень открыт.")
+          document.querySelector(".fifth").style.display = "none";
+        menu.style.display = "block";
+        second.style.display = "block";
+        namw.style.display = "block";
+        } 
+      }
+      document.querySelector(".cherep").onclick = function(){
+      	pointh = pointh + 1
+      	document.querySelector(".pointh").innerHTML = pointh;
+        document.querySelector(".cherep").style.display = "none";
+        document.querySelector(".chere").style.display = "none";
+        if (   pointh==12   ) {
+          alert("Молодец! Следующий уровень открыт.")
+          document.querySelector(".fifth").style.display = "none";
+        menu.style.display = "block";
+        namw.style.display = "block";
+        second.style.display = "block";
+        } 
+      }
+      document.querySelector(".cards").onclick = function(){
+      	pointh = pointh + 1
+      	document.querySelector(".pointh").innerHTML = pointh;
+        document.querySelector(".cards").style.display = "none";
+        document.querySelector(".card").style.display = "none";
+        if (   pointh==12   ) {
+          alert("Молодец! Следующий уровень открыт.")
+          document.querySelector(".fifth").style.display = "none";
+        menu.style.display = "block";
+        second.style.display = "block";
+        namw.style.display = "block";
+        } 
+      }
+      document.querySelector(".tooth").onclick = function(){
+      	pointh = pointh + 1
+      	document.querySelector(".pointh").innerHTML = pointh;
+        document.querySelector(".tooth").style.display = "none";
+        document.querySelector(".toot").style.display = "none";
+        if (   pointh==12   ) {
+          alert("Молодец! Следующий уровень открыт.")
+          document.querySelector(".fifth").style.display = "none";
+        menu.style.display = "block";
+        namw.style.display = "block";
+        second.style.display = "block";
+        } 
+      }
+      document.querySelector(".lisa").onclick = function(){
+      	pointh = pointh + 1
+      	document.querySelector(".pointh").innerHTML = pointh;
+        document.querySelector(".lisa").style.display = "none";
+        document.querySelector(".lis").style.display = "none";
+        if (   pointh==12   ) {
+          alert("Молодец! Следующий уровень открыт.")
+          document.querySelector(".fifth").style.display = "none";
+        menu.style.display = "block";
+        namw.style.display = "block";
+        second.style.display = "block";
+        } 
+      }
+      document.querySelector(".vinyl").onclick = function(){
+      	pointh = pointh + 1
+      	document.querySelector(".pointh").innerHTML = pointh;
+        document.querySelector(".vinyl").style.display = "none";
+        document.querySelector(".viny").style.display = "none";
+        if (   pointh==12   ) {
+          alert("Молодец! Следующий уровень открыт.")
+          document.querySelector(".fifth").style.display = "none";
+        menu.style.display = "block";
+        namw.style.display = "block";
+        second.style.display = "block";
+        } 
+      }
+      document.querySelector(".veer").onclick = function(){
+      	pointh = pointh + 1
+      	document.querySelector(".pointh").innerHTML = pointh;
+        document.querySelector(".veer").style.display = "none";
+        document.querySelector(".vee").style.display = "none";
+        if (   pointr==12   ) {
+          alert("Молодец! Следующий уровень открыт.")
+          document.querySelector(".fifth").style.display = "none";
+        menu.style.display = "block";
+        namw.style.display = "block";
+        second.style.display = "block";
+        } 
+      }
+      document.querySelector(".jam").onclick = function(){
+      	pointh = pointh + 1
+      	document.querySelector(".pointh").innerHTML = pointh;
+        document.querySelector(".jam").style.display = "none";
+        document.querySelector(".ja").style.display = "none";
+        if (   pointh==12   ) {
+          alert("Молодец! Следующий уровень открыт.")
+          document.querySelector(".fifth").style.display = "none";
+        menu.style.display = "block";
+        namw.style.display = "block";
+        second.style.display = "block";
+        } 
+      }
+      document.querySelector(".lava").onclick = function(){
+      	pointh = pointh + 1
+      	document.querySelector(".pointh").innerHTML = pointh;
+        document.querySelector(".lava").style.display = "none";
+        document.querySelector(".lav").style.display = "none";
+        if (   pointh==12   ) {
+          alert("Молодец! Следующий уровень открыт.")
+          document.querySelector(".fifth").style.display = "none";
+        menu.style.display = "block";
+        namw.style.display = "block";
+        second.style.display = "block";
+        } 
+      }
+      document.querySelector(".cake").onclick = function(){
+      	pointh = pointh + 1
+      	document.querySelector(".pointh").innerHTML = pointh;
+        document.querySelector(".cake").style.display = "none";
+        document.querySelector(".cak").style.display = "none";
+        if (   pointh==12   ) {
+          alert("Молодец! Следующий уровень открыт.")
+          document.querySelector(".fifth").style.display = "none";
+        menu.style.display = "block";
+        namw.style.display = "block";
+        second.style.display = "block";
+        } 
+      }
+
+      document.querySelector(".earth").onclick = function(){
+      	pointh = pointh + 1
+      	document.querySelector(".pointh").innerHTML = pointh;
+        document.querySelector(".earth").style.display = "none";
+        document.querySelector(".eart").style.display = "none";
+        if (   pointh==12   ) {
+          alert("Молодец! Следующий уровень открыт.")
+          document.querySelector(".fifth").style.display = "none";
+        menu.style.display = "block";
+        namw.style.display = "block";
+        second.style.display = "block";
+        } 
+      }
+
+
+
+ 
+    </script>
+
+  </body>
+</html>
